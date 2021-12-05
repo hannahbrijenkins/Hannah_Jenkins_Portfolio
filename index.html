@@ -4,56 +4,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Hannah Jenkin's - Portfolio</title>
+    <title>Hannah Jenkins' Portfolio</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <header class="header">
-      <nav class="navbar" role="navigation">
-        <!-- where the links will go in the menu -->
-        <ul class="nav-menu">
-          <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
-          <li class="nav-item"><a class="nav-link"  href="">Github</a></li>
-          <li class="nav-item"><a class="nav-link" 
-           href="">Contact</a></li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
+    <header>
+      <div
+        uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;"
+      >
+        <nav class="uk-navbar uk-navbar-container">
+          <div class="uk-navbar-left">
+            <div class="uk-navbar-item uk-logo">Hannah Jenkins</div>
+          </div>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li><a href="">about</a></li>
+              <li><a href="">projects</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
-    <div class="photocontainer"></div>
-    <div class="intro">
-      <h3>Hi, I'm Hannah,</h3>
-      <p>and I am a <span class="job">Full Stack Web Developer</span></p>
+    <!-- main wrapper -->
+    <div
+      class="
+        uk-width-2xlarge
+        uk-flex
+        uk-flex-center
+        uk-margin-auto
+        uk-padding-large
+        uk-padding-remove-horizontal
+      "
+    >
+      <!-- text wrapper -->
+      <div>
+        <h1>
+          My name is <br />
+          <span>Hannah Jenkins.</span>
+        </h1>
+        <h2>I am a web developer.</h2>
+        <p>
+          I specialize in front end web development and have experience with
+          HTML/CSS, Javascript, Bootstrap, and React. Lorem ipsum dolor.
+        </p>
+        <!-- social icons wrap -->
+        <div>
+          <ul>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- clipart wrapper -->
+      <div class="uk-width-xlarge">
+        <img src="/girl-on-computer.jpg" alt="" />
+      </div>
     </div>
-    <div class="projectbutton">
-      <div class="coffeeicon"></div>
-      <p class="grabacup">
-        <span>Grab a cup</span> and take a peek at my <span>Portfolio</span>
-      </p>
-    </div>
-    <div class="aboutme">
-      <h3 class="aboutitle">About Me</h3>
-      <p>I enjoy hanging out with my dogs, meditation, art, and travel.</p>
+    <!-- about wrapper -->
+    <div class="uk-margin-xlarge">
+      <h2>About Me</h2>
       <p>
-        Currently I am achieving my bachelors degree at Eastern Florida State in
-        CIST - Software Development
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor,
+        explicabo optio nulla dolores repudiandae! Corrupti doloremque iste
+        exercitationem animi eveniet aliquid nemo eaque ipsa.
       </p>
+      <!-- bullet list wrapper -->
+      <ul>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+      </ul>
     </div>
-    <div class="contact">
-      <h3>Contact Me</h3>
-      <p></p>
+    <!-- projects wrapper -->
+    <div>
+      <h2>Projects</h2>
+      <!-- project card wrapper -->
+      <div>
+        <div>
+          <img src="" alt="" />
+          <div><p></p></div>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <div><p></p></div>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <div><p></p></div>
+        </div>
+      </div>
+    </div>
+    <!-- contact wrapper -->
+    <div>
+      <h2>Contact</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis,
+        exercitationem!
+      </p>
+      <button>Contact</button>
     </div>
     <footer>
-      <button class="Contact">Contact</button>
-      <button class="sitemap">Site Map</button>
-      <button class="Backtotop">Back to Top</button>
-      <button><img /></button>
-      <button><img /></button>
+      <!-- footer socials wrap -->
+      <div>
+        <ul>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- credit wrapper -->
+      <p>
+        Hello. I, Hannah Jenkins, in fact did make this site. View Github
+        <span>here...</span> If you dare...
+      </p>
     </footer>
   </body>
-  <script src="/app.js"></script>
 </html>

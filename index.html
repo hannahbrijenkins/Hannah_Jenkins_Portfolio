@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
   </head>
   <body>
     <header>
@@ -16,7 +19,7 @@
       >
         <nav class="uk-navbar uk-navbar-container">
           <div class="uk-navbar-left">
-            <div class="uk-navbar-item uk-logo">Hannah Jenkins</div>
+            <div class="uk-navbar-item uk-logo ">Hannah Jenkins</div>
           </div>
           <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
@@ -41,56 +44,48 @@
     >
       <!-- text wrapper -->
       <div>
-        <h1>
+        <h1 class="header-font">
           My name is <br />
-          <span class="uk-text-primary">Hannah Jenkins.</span>
+          <span class="uk-text-primary secondary-font">Hannah Jenkins.</span>
         </h1>
-        <h2>I am a web developer.</h2>
+        <h2 class="header-font">I am a web developer.</h2>
         <p>
           I specialize in front end web development and have experience with
           HTML/CSS, Javascript, Bootstrap, and React. Lorem ipsum dolor.
         </p>
         <!-- social icons wrap -->
         <div>
-          <ul>
-            <li>
-              <a href=""><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="" alt="" /></a>
-            </li>
-          </ul>
+          <a href=""><img src="images/icons/linkedin.png" alt="" /></a>
+          <a href=""><img src="images/icons/github.png" alt="" /></a>
+          <a href=""><img src="images/icons/spotify.png" alt="" /></a>
         </div>
       </div>
       <!-- clipart wrapper -->
       <div class="uk-width-xlarge">
-        <img src="/girl-on-computer.jpg" alt="" />
+        <img src="images/girl.png" alt="" />
       </div>
     </div>
     <!-- about wrapper -->
     <div class="uk-margin-xlarge uk-width-2xlarge uk-margin-auto">
-      <h2>About Me</h2>
-      <p>
+      <h2 class="header-font">About Me</h2>
+      <p class="body-font">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor,
         explicabo optio nulla dolores repudiandae! Corrupti doloremque iste
         exercitationem animi eveniet aliquid nemo eaque ipsa.
       </p>
       <!-- bullet list wrapper -->
-      <h3>Skills</h3>
-      <ul>
+      <h3 class="header-font">Skills</h3>
+      <ul class="body-font">
         <a href=""><li>Javascript</li></a>
         <a href=""><li>Python</li></a>
         <a href=""><li>Front-End Design</li></a>
       </ul>
     </div>
     <!-- projects wrapper -->
-    <h2 class="uk-width-2xlarge uk-margin-auto">Projects</h2>
+    <h2 class="uk-width-2xlarge uk-margin-auto header-font">Projects</h2>
     <div
       class="
-        uk-child-width-1-3@m uk-flex uk-flex-between uk-width-2-3 uk-margin-auto
+        uk-child-width-1-3@m uk-flex uk-flex-between uk-width-2-3 uk-margin-auto body-font
       "
     >
       <!-- project card wrapper -->
@@ -111,7 +106,7 @@
           />
         </div>
         <div class="uk-card-body">
-          <h4>Project 1</h4>
+          <h4 class="header-font">Project 1</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
             praesentium ipsam, non dolor commodi vero.
@@ -135,7 +130,7 @@
           />
         </div>
         <div class="uk-card-body">
-          <h4>Project 1</h4>
+          <h4 class="header-font">Project 1</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
             praesentium ipsam, non dolor commodi vero.
@@ -159,7 +154,7 @@
           />
         </div>
         <div class="uk-card-body">
-          <h4>Project 1</h4>
+          <h4 class="header-font">Project 1</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
             praesentium ipsam, non dolor commodi vero.
@@ -169,35 +164,34 @@
     </div>
 
     <!-- contact wrapper -->
-    <div class="uk-margin-large">
-      <h2>Contact</h2>
+    <div class="uk-margin-xlarge uk-width-2xlarge uk-margin-auto body-font">
+      <h2 class="header-font">Contact</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis,
         exercitationem!
       </p>
+      <form class="" action="">
+        <input class="uk-input" placeholder="Name" type="text" name="" id="" />
+        <input class="uk-input" placeholder="Email" type="text" />
+        <input class="uk-textarea" placeholder="Message" type="text" />
+      </form>
       <button>Contact</button>
     </div>
-    <footer uk-sticky>
+    <footer class="uk-sticky body-font uk-flex uk-flex-between uk-margin-large-left uk-margin-large-right uk-flex-middle">
       <!-- footer socials wrap -->
 
-      <div>
-        <ul>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-        </ul>
+      <div class="uk-flex uk-width-small uk-flex-around">
+        <a href=""><img src="images/icons/linkedin-round.png" alt="" /></a>
+        <a href=""><img src="images/icons/github-round.png" alt="" /></a>
+        <a href=""><img src="images/icons/spotify-round.png" alt="" /></a>
       </div>
       <!-- credit wrapper -->
+      <div>
       <p>
-        Hello. I, Hannah Jenkins, in fact did make this site. View Github
-        <span>here...</span> If you dare...
+        View Github repository of this site <a href="#">here.</a>
+        <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
       </p>
+    </div>
     </footer>
   </body>
 </html>

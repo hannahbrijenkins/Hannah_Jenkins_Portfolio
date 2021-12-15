@@ -2,7 +2,7 @@
   font-family: "Rubik", Sans-Serif;
 }
 .body-font {
-  font-family: "Karla", Sans-Serif;
+  font-family: "Karla", Sans-Serif !important;
 
 }
 .secondary-font {
